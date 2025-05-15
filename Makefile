@@ -6,7 +6,7 @@
 # - Use: make, make clean, make fclean, make re
 
 
-CCF     = cc -Wall -Wextra -Werror
+CCF     = cc -Wall -Wextra
 NAME    = libch.a
 
 SRC     := $(wildcard sources/*/*.c)

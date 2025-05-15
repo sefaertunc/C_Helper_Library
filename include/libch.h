@@ -26,4 +26,5 @@
 
 char	*ch_strrev_inplace(char *str);
 char	*ch_strrev_copy(char *str);
+char	*ch_strreplace(const char *str, const char *old, char *new);
 #endif

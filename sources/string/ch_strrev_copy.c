@@ -12,6 +12,18 @@
 
 #include "../../include/libch.h"
 
+/**
+ * ch_strrev_copy - Returns a reversed copy of a string.
+ * @str: The input string to reverse (const safe).
+ *
+ * This function creates and returns a new string with the characters
+ * of the input string in reverse order. The original string remains unchanged.
+ *
+ * Return: A pointer to the newly allocated reversed string.
+ *         Returns NULL if the input is NULL or memory allocation fails.
+ *         The caller is responsible for freeing the returned string.
+ */
+
 char	*ch_strrev_copy(char *str)
 {
 	char	*rt_ptr;

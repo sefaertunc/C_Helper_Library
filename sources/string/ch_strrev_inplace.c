@@ -12,6 +12,17 @@
 
 #include "../../include/libch.h"
 
+/**
+ * ch_strrev_inplace - Reverses a string in place.
+ * @str: The string to reverse. Must be mutable (non-const).
+ *
+ * This function reverses the characters of the input string directly.
+ * The original content of the string is modified.
+ *
+ * Return: A pointer to the same string, now reversed.
+ *         Returns NULL if the input is NULL.
+ */
+
 char	*ch_strrev_inplace(char *str)
 {
 	char	temp;

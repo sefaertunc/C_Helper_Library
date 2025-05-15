@@ -23,8 +23,10 @@
 # include <stdbool.h>
 # include <time.h>
 # include <errno.h>
+# include <unistd.h>
 
 char	*ch_strrev_inplace(char *str);
 char	*ch_strrev_copy(char *str);
-char	*ch_strreplace(const char *str, const char *old, char *new);
+size_t	ch_strcount_substr(const char *str, const char *substr);
+char	*ch_strreplace(const char *str, const char *old, const char *new);
 #endif
